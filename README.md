@@ -1,6 +1,6 @@
-# marelle-deps
+# computer-deps
 
-Personal package dependencies for [Marelle](https://github.com/larsyencken/marelle), a test-driven system administration tool written in Prolog.
+Personal package dependencies for [Computer](https://github.com/monadicus/computer), a test-driven system administration tool written in Prolog.
 
 ## Meta packages
 
@@ -10,8 +10,6 @@ These deps come with some recommended collections for different languages and pu
 - `python-vision-recommended`: Python packages for computer vision with SimpleCV
 - `r-recommended`: a set of R Packages for data analysis and machine learning
 
-Run `marelle list recommended` to see more.
+Run `computer list recommended` to see more.
 
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/larsyencken/marelle-deps/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
