@@ -1,6 +1,6 @@
 %
 %  x11.pl
-%  marelle-deps
+%  computer-deps
 %
 
 pkg(x11).

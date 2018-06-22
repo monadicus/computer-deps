@@ -1,6 +1,6 @@
 %
 %  vim.pl
-%  marelle-deps
+%  computer-deps
 %
 
 command_pkg(vim).

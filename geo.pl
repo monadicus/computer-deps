@@ -1,6 +1,6 @@
 %
 %  geo.pl
-%  marelle-deps
+%  computer-deps
 %
 %  Geo-location helper.
 %

@@ -1,6 +1,6 @@
 %
 %  emacs.pl
-%  marelle-deps
+%  computer-deps
 %
 
 pkg(emacs).

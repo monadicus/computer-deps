@@ -1,6 +1,6 @@
 %
 %  system.pl
-%  marelle-deps
+%  computer-deps
 %
 %  Basic system utility packages.
 %

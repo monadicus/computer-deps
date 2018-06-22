@@ -1,6 +1,6 @@
 %
 %  python.pl
-%  marelle-deps
+%  computer-deps
 %
 
 %

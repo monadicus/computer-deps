@@ -1,6 +1,6 @@
 %
 %  ruby.pl
-%  marelle-deps
+%  computer-deps
 %
 
 command_pkg(ruby).

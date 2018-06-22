@@ -1,6 +1,6 @@
 %
 %  aws.pl
-%  marelle-deps
+%  computer-deps
 %
 %  Tools for working with AWS.
 %

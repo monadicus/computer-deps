@@ -1,6 +1,6 @@
 %
 %  juici.pl
-%  marelle-deps
+%  computer-deps
 %
 
 meta_pkg(juici, [

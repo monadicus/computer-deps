@@ -1,6 +1,6 @@
 %
 %  julia.pl
-%  marelle-deps
+%  computer-deps
 %
 %  The Julia language for scientific computing.
 %

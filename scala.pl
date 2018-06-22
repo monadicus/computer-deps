@@ -1,6 +1,6 @@
 %
 %  scala.pl
-%  marelle-deps
+%  computer-deps
 %
 %  Scala packages.
 %

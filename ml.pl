@@ -1,6 +1,6 @@
 %
 %  ml.pl
-%  marelle-deps
+%  computer-deps
 %
 %  Machine learning packages.
 %

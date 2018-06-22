@@ -1,6 +1,6 @@
 %
 %  vision.pl
-%  marelle-deps
+%  computer-deps
 %
 %  Support for computer vision.
 %

@@ -1,6 +1,6 @@
 %
 %  haskell.pl
-%  marelle-deps
+%  computer-deps
 %
 
 managed_pkg(hugs).

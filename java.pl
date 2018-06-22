@@ -1,6 +1,6 @@
 %
 %  java.pl
-%  marelle-deps
+%  computer-deps
 %
 
 command_pkg(java).

@@ -1,6 +1,6 @@
 %
 %  drake.pl
-%  marelle-deps
+%  computer-deps
 %
 %  A make replacement in Clojure.
 %

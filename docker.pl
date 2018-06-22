@@ -1,6 +1,6 @@
 %
 %  docker.pl
-%  marelle-deps
+%  computer-deps
 %
 %  LXC virtualisation.
 %

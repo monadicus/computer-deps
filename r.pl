@@ -1,6 +1,6 @@
 %
 %  r.pl
-%  marelle-deps
+%  computer-deps
 %
 %  The R statistical language.
 %

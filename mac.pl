@@ -1,6 +1,6 @@
 %
 %  mac.pl
-%  marelle-deps
+%  computer-deps
 %
 
 pkg(sequelpro) :- platform(osx).

@@ -1,6 +1,6 @@
 %
 %  network.pl
-%  marelle-deps
+%  computer-deps
 %
 
 meta_pkg('network-recommended', [

@@ -1,6 +1,6 @@
 %
 %  shells.pl
-%  marelle-deps
+%  computer-deps
 %
 %  UNIX shells.
 %

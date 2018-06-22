@@ -10,5 +10,5 @@
 pkg('depupdate').
 met('depupdate', _) :- deps_have_been_updated.
 meet('depupdate', _) :-
-    bash('cd ~/.marelle/deps && git pull'),
+    bash('cd ~/.computer/deps && git pull'),
     assertz(deps_have_been_updated).

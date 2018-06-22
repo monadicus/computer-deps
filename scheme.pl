@@ -1,6 +1,6 @@
 %
 %  scheme.pl
-%  marelle-deps
+%  computer-deps
 %
 
 command_pkg(chicken).

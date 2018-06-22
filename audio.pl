@@ -1,6 +1,6 @@
 %
 %  audio.pl
-%  marelle-deps
+%  computer-deps
 %
 
 managed_pkg(sox).

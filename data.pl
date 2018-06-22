@@ -1,6 +1,6 @@
 %
 %  data.pl
-%  marelle-deps
+%  computer-deps
 %
 
 meta_pkg('data-science-toolkit', [
