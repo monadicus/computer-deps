@@ -17,5 +17,5 @@ installs_with_apt(gem, rubygems).
 git_step(
     '__juici source checked out',
     'https://github.com/richo/juici',
-    '~/.local/juici'
+    '~/.computer/juici'
 ).

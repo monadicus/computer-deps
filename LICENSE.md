@@ -1,4 +1,5 @@
 Copyright (c) 2013, Lars Yencken
+Portions Copyright (c) 2019, Damon Sicore
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:

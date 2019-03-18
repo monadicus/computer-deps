@@ -9,7 +9,7 @@ installs_with_apt(chicken, 'chicken-bin').
 
 pkg('racket').
 met('racket', _) :-
-    isfile('~/.local/racket-5.3.6/bin/raco').
+    isfile('~/.computer/racket-5.3.6/bin/raco').
 meet('racket', _).
 depends('racket', _, [
     '__racket installed',
@@ -20,15 +20,15 @@ pkg('__racket in profile').
 met('__racket in profile', _) :-
     bash('fgrep -q "racket-5.3.6" ~/.profile').
 meet('__racket in profile', _) :-
-    bash('echo \'export PATH=~/.local/racket-5.3.6/bin:${PATH}\' >> ~/.profile').
+    bash('echo \'export PATH=~/.computer/racket-5.3.6/bin:${PATH}\' >> ~/.profile').
 
 pkg('__racket installed').
 met('__racket installed', _) :-
-    isfile('~/.local/racket-5.3.6/bin/raco').
+    isfile('~/.computer/racket-5.3.6/bin/raco').
 meet('__racket installed', linux(_)) :-
-    bash('cd /tmp/racket-5.3.6/src && ./configure --prefix=$HOME/.local/racket-5.3.6 && make && make install').
+    bash('cd /tmp/racket-5.3.6/src && ./configure --prefix=$HOME/.computer/racket-5.3.6 && make && make install').
 meet('__racket installed', osx) :-
-    bash('cd /tmp/racket-5.3.6/src && ./configure --prefix=$HOME/.local/racket-5.3.6 --enable-xonx && make && make install').
+    bash('cd /tmp/racket-5.3.6/src && ./configure --prefix=$HOME/.computer/racket-5.3.6 --enable-xonx && make && make install').
 depends('__racket installed', _, [
     '__racket tarball unpacked'
 ]).

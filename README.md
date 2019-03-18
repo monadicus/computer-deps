@@ -1,6 +1,6 @@
 # computer-deps
 
-Personal package dependencies for [Computer](https://github.com/monadicus/computer), a test-driven system administration tool written in Prolog.
+Personal package dependencies for [Computer](https://github.com/monadicus/computer), a shell hack written in Prolog.
 
 ## Meta packages
 

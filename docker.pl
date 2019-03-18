@@ -11,12 +11,12 @@ depends(docker, linux(_), '__docker ppa').
 depends(docker, osx, [boot2docker]).
 
 meet(docker, osx) :-
-    curl('https://get.docker.io/builds/Darwin/x86_64/docker-latest', '~/.local/bin/docker'),
-    bash('chmod a+x ~/.local/bin/docker').
+    curl('https://get.docker.io/builds/Darwin/x86_64/docker-latest', '~/.computer/bin/docker'),
+    bash('chmod a+x ~/.computer/bin/docker').
 
 git_step('docker-source',
     'https://github.com/dotcloud/docker',
-    '~/.local/docker'
+    '~/.computer/docker'
 ).
 
 pkg('__docker ppa').
@@ -34,5 +34,5 @@ meet('__docker ppa', linux(CodeName)) :-
 
 command_pkg(boot2docker).
 meet(boot2docker, osx) :-
-    curl('https://raw.github.com/steeve/boot2docker/master/boot2docker', '~/.local/bin/boot2docker'),
-    bash('chmod a+x ~/.local/bin/boot2docker').
+    curl('https://raw.github.com/steeve/boot2docker/master/boot2docker', '~/.computer/bin/boot2docker'),
+    bash('chmod a+x ~/.computer/bin/boot2docker').

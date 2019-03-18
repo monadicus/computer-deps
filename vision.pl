@@ -85,12 +85,12 @@ cwd(Old, New) :- working_directory(Old, New).
 
 % barcode reading with zxing
 pkg(zxing).
-met(zxing, _) :- isfile('~/.local/zxing-1.6/javase/javase.jar').
+met(zxing, _) :- isfile('~/.computer/zxing-1.6/javase/javase.jar').
 meet(zxing, _) :-
-    bash('cd ~/.local && wget http://zxing.googlecode.com/files/ZXing-1.6.zip'),
-    bash('cd ~/.local && unzip ZXing-1.6.zip && rm ZXing-1.6.zip'),
-    bash('cd ~/.local/zxing-1.6/core && ant build'),
-    bash('cd ~/.local/zxing-1.6/javase && ant build').
+    bash('cd ~/.computer && wget http://zxing.googlecode.com/files/ZXing-1.6.zip'),
+    bash('cd ~/.computer && unzip ZXing-1.6.zip && rm ZXing-1.6.zip'),
+    bash('cd ~/.computer/zxing-1.6/core && ant build'),
+    bash('cd ~/.computer/zxing-1.6/javase && ant build').
 depends(zxing, _, [java, ant]).
 
 command_pkg(ant).

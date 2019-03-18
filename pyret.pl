@@ -10,7 +10,7 @@ met('pyret', _) :-
     isfile('~/.racket/links.rktd'),
     bash('fgrep -q pyret ~/.racket/links.rktd').
 meet('pyret', _) :-
-    bash('cd ~/.local/pyret && make dep && make').
+    bash('cd ~/.computer/pyret && make dep && make').
 depends('pyret', _, [
     '__pyret cloned',
     'racket'
@@ -18,7 +18,7 @@ depends('pyret', _, [
 
 pkg('__pyret cloned').
 met('__pyret cloned', _) :-
-    isdir('~/.local/pyret').
+    isdir('~/.computer/pyret').
 meet('__pyret cloned', _) :-
-    bash('mkdir -p ~/.local'),
-    bash('cd ~/.local && git clone https://github.com/brownplt/pyret-lang pyret').
+    bash('mkdir -p ~/.computer'),
+    bash('cd ~/.computer && git clone https://github.com/brownplt/pyret-lang pyret').
